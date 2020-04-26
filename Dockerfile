@@ -6,6 +6,8 @@ RUN npm install  --no-package-lock
 RUN mv package.json package.build.json
 RUN cp package.docker.json package.json
 
+RUN ls -l node_modules/node-red*
+
 # Copy in our scripts and make them executable.
 USER root
 COPY scripts/ scripts
