@@ -1,0 +1,5 @@
+{
+    "dependencies": {
+        "node-red-contrib-home-assistant-websocket": "~0.22.2"
+    }
+}
